@@ -1,0 +1,61 @@
+#search-component {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+label {
+  font-weight: bold; /* Define a fonte em negrito */
+  font-size: 1.2rem; /* Define o tamanho da fonte */
+}
+
+#search-box {
+  margin-bottom: 20px; /* Adiciona espaço inferior */
+  padding: 10px; /* Adiciona preenchimento interno */
+  border: 2px solid #007bff; /* Adiciona uma borda */
+  border-radius: 5px; /* Adiciona cantos arredondados */
+  width: 300px; /* Define a largura do input */
+  font-size: 1rem; /* Define o tamanho da fonte */
+}
+
+ul.search-result {
+  list-style-type: none; /* Remove os marcadores de lista */
+  padding: 0; /* Remove o preenchimento padrão */
+}
+
+  ul.search-result li {
+    margin-bottom: 10px; /* Adiciona espaço inferior entre os itens */
+  }
+    ul.search-result li a {
+      display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+      padding: 15px; /* Adiciona preenchimento interno para melhorar a acessibilidade ao clicar */
+      border-radius: 5px; /* Adiciona cantos arredondados */
+      background-color: #f8f9fa; /* Adiciona uma cor de fundo */
+      transition: background-color 0.3s; /* Adiciona uma transição suave de cor */
+    }
+
+      ul.search-result li a:hover {
+        background-color: #e9ecef; /* Altera a cor de fundo ao passar o mouse sobre o link */
+      }
+
+a {
+  display: block; /* Faz o link ocupar toda a largura do contêiner */
+  padding: 15px; /* Aumenta o preenchimento interno */
+  text-decoration: none; /* Remove a decoração do link */
+  color: #000000; /* Define a cor do link */
+  transition: color 0.3s; /* Adiciona uma transição suave de cor */
+}
+
+  a:hover {
+    color: #0056b3; /* Altera a cor ao passar o mouse sobre o link */
+  }
+
+h2 {
+  margin-top: 30px; /* Adiciona espaço superior */
+  font-size: 1.5rem; /* Define o tamanho da fonte */
+  color: #333; /* Define a cor do texto */
+}
+
+p {
+  margin: 10px 0; /* Adiciona espaço superior e inferior */
+  font-size: 1rem; /* Define o tamanho da fonte */
+  color: #666; /* Define a cor do texto */
+}
