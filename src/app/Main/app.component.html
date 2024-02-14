@@ -1,0 +1,16 @@
+User is authenticated?:
+<input type="Radio" name="isAuth" (change)="login(false)"> NO
+<input type="Radio" name="isAuth" (change)="login(true)"> YES
+
+<br />
+<button routerLink="/userRegistration" class="register-button">Register</button>
+
+<img src="./assets/gca.png" alt="title-image" class="title-image">
+
+
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/pokemons">Pokemons</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>

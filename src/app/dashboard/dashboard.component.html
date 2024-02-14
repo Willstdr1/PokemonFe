@@ -1,0 +1,22 @@
+
+<br />
+
+<img src="./assets/dangerous.jpg" alt="dangerous-image" class="dangerous-image">
+
+<h2>Starter Pokemons</h2>
+
+<div class="pokemons-menu">
+  <a *ngFor="let pokemon of pokemons"
+     routerLink="/detail/{{pokemon.id}}">
+    {{pokemon.name}}
+  </a>
+</div>
+
+<!--<img src="./assets/starters.jpg" alt="starters-image" class="starters-image">-->
+
+
+<h3>Did you know?</h3>
+<h4>The pokemon name Arbok spelled backwards is: {{ ARBOK | reverse }}</h4>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png" alt="ArbokSprite" class="ArbokSprite">>
+
+<app-pokemon-search></app-pokemon-search>

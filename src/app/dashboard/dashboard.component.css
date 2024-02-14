@@ -1,0 +1,69 @@
+h2 {
+  text-align: center;
+}
+
+
+/*.starters-image {
+  display: block;*/ /* Torna a imagem visível */
+  /*margin: auto;*/ /* Centraliza horizontalmente */
+  /*max-width: 50%;*/ /* Garante que a imagem não ultrapasse a largura máxima do contêiner */
+  /*margin-top: 10px;*/ /* Adiciona espaço superior */
+/*}*/
+
+.ArbokSprite {
+  display: block; /* Torna a imagem visível */
+  margin: auto; /* Centraliza horizontalmente */
+  max-width: 50%; /* Garante que a imagem não ultrapasse a largura máxima do contêiner */
+  margin-top: 20px; /* Adiciona espaço superior */
+}
+.pokemons-menu {
+  padding: 20px; /* Adiciona algum espaçamento interno */
+  margin: auto;
+  max-width: 800px; /* Reduz a largura máxima */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.dangerous-image {
+  display: block; /* Torna a imagem visível */
+  margin: auto; /* Centraliza horizontalmente */
+  max-width: 200px; /* Garante que a imagem não ultrapasse a largura máxima do contêiner */
+  margin-top: 20px; /* Adiciona espaço superior */
+}
+
+a {
+  background-color: #000000;
+  border-radius: 2px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  min-width: 70px;
+  margin: 10px; /* Adiciona margem em todos os lados */
+  box-sizing: border-box;
+  flex: 0 0 18%; /* Define a largura do link */
+}
+
+  a:hover {
+    background-color: #ff0000;
+  }
+
+h3 {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  font-size: 24px; /* Define o tamanho da fonte */
+  color: #000000; /* Define a cor do texto */
+  margin-top: 40px; /* Adiciona margem superior */
+}
+
+h4 {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  font-size: 18px; /* Define o tamanho da fonte */
+  color: #000000; /* Define a cor do texto */
+  margin-bottom: 20px; /* Adiciona margem inferior */
+}

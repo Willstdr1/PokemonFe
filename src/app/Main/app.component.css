@@ -1,0 +1,55 @@
+h1 {
+  margin-bottom: 20px; /* Adiciona espaço inferior */
+  text-align: center; /* Centraliza o texto */
+}
+
+.title-image {
+  display: block; /* Torna a imagem visível */
+  margin: auto; /* Centraliza horizontalmente */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura máxima do contêiner */
+  margin-top: 20px; /* Adiciona espaço superior */
+}
+
+nav {
+  text-align: center; /* Centraliza os links */
+}
+
+  nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #000000; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+  }
+
+    nav a:hover {
+      background-color: #ff0000; /* Cor de fundo ao passar o mouse */
+    }
+
+    nav a:active {
+      background-color: #000000; /* Cor de fundo ao clicar */
+    }
+
+.register-button {
+  padding: 0.3rem 0.6rem; /* Reduz ainda mais a altura do botão */
+  font-size: 0.7rem; /* Reduz ainda mais o tamanho da fonte do botão */
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #000000; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+  .register-button:hover {
+    background-color: #ff0000; /* Cor de fundo ao passar o mouse */
+  }
+
+  .register-button:active {
+    background-color: #000000; /* Cor de fundo ao clicar */
+  }

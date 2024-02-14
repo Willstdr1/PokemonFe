@@ -1,0 +1,39 @@
+<div *ngIf="pokemon">
+
+  <h2>{{pokemon.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{pokemon.id}}</div>
+  <div>
+    <label for="pokemon-name">Pokemon name: </label>
+    <span>{{ pokemon.name }}</span>
+    <br />
+    <label for="pokemon-height">Pokemon height: </label>
+    <span>{{ pokemon.height }}</span>
+    <br />
+    <label for="pokemon-weight">Pokemon weight: </label>
+    <span>{{ pokemon.weight }}</span>
+    <br />
+    <label for="pokemon-types">Pokemon type(s): </label>
+    <span>{{ pokemon.types }}</span>
+    <br />
+    <label for="pokemon-family">Pokemon family: </label>
+    <span>{{ pokemon.family }}</span>
+    <br />
+    <img *ngIf="pokemonSpriteUrl" [src]="pokemonSpriteUrl" alt="Pokemon Sprite">
+
+
+    <br />
+
+    <button type="button" (click)="goBack()">go back</button>
+  </div>
+
+  <!--<div>
+
+      <label for="strength">Hero strength: </label>
+      <input type="number" id="strength" [(ngModel)]="pokemon.strength" placeholder="strength" />
+
+      </div>
+    <label for="value">Pokemon Power Level: </label>
+    <span appPowerFontSize={{pokemon.strength}}>
+      <p style="display: inline-block;">{{ pokemon.strength | strengthValue }}</p>
+    </span>
+  </div>-->

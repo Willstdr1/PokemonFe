@@ -1,0 +1,26 @@
+  <h2>Pokedex - All pokemons - Gen1 to 3</h2>
+
+  <div appHighlightcursor>
+    <ul class="pokemons">
+      <li *ngFor="let pokemon of pokemons | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }" class="pokemon-item">
+        <button [class.selected]="pokemon === selectedPokemon" type="button" (click)="onSelect(pokemon)">
+          <img src="{{ getPokemonSpriteUrl(pokemon.id) }}" class="pokemon-sprite" alt="Pokemon Sprite">
+          <a routerLink="/detail/{{pokemon.id}}" appHighlightcursor>
+            <span class="badge">{{pokemon.id}}</span> {{pokemon.name}}
+          </a>
+        </button>
+      </li>
+    </ul>
+    <pagination-controls (pageChange)="currentPage = $event"></pagination-controls>
+
+  </div>
+
+
+<!--<div>
+  <label for="new-pokemon">Pokemon name: </label>
+  <input id="new-pokemon" #pokemonName />-->
+<!-- (click) passes input value to add() and then clears the input -->
+<!--<button type="button" class="add-button" (click)="add(pokemonName.value); pokemonName.value=''">
+    Add pokemon
+  </button>
+</div>-->

@@ -1,0 +1,24 @@
+div {
+  text-align: center; /* Centraliza horizontalmente o conteúdo */
+}
+
+.404-image {
+  display: block; /* Torna a imagem visível */
+  margin: auto; /* Centraliza horizontalmente a imagem */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura máxima do contêiner */
+  margin-bottom: 20px; /* Adiciona espaço inferior */
+}
+
+h1, p {
+  margin: 0; /* Remove margens padrão */
+}
+
+.PikachuPNG {
+  position: fixed; /* Posiciona o PNG fixamente em relação à tela */
+  bottom: 20px; /* Distância do PNG até a parte inferior da tela */
+  right: 100px; /* Distância do PNG até o lado direito da tela */
+  width: 80px; /* Define a largura do PNG */
+  height: auto; /* Mantém a proporção da altura */
+}
+
+

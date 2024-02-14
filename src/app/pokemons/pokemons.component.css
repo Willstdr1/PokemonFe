@@ -1,0 +1,34 @@
+.pokemons {
+  list-style-type: none; /* Remove os marcadores de lista */
+  padding: 0; /* Remove o preenchimento padrão */
+  display: flex; /* Ativa o modelo de layout flexbox */
+  flex-wrap: wrap; /* Permite que os itens da lista quebrem para a próxima linha */
+  justify-content: space-around; /* Distribui uniformemente os itens ao longo do eixo principal */
+}
+
+.pokemon-item {
+  width: calc(12.5% - 10px); /* Reduz a largura de cada item para 12.5% da largura total da lista e subtrai o espaçamento entre os itens */
+}
+
+  .pokemon-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave quando o mouse passa sobre o item */
+  }
+
+  .pokemon-item button {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px; /* Aumenta o preenchimento para tornar o botão mais clicável */
+    cursor: pointer;
+    width: 100%; /* Faz com que o botão ocupe toda a largura da caixa */
+  }
+
+    .pokemon-item button.selected {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+.pokemon-sprite {
+  width: 100%; /* Faz com que a sprite ocupe toda a largura da caixa */
+  max-width: 80px; /* Define a largura máxima da sprite para 80 pixels */
+  height: auto; /* Garante que a altura seja ajustada automaticamente para manter a proporção */
+}
